@@ -13,16 +13,32 @@
 
       <p>To give you a quote, we need to know a little about you:</p>
 
-      <form id="insurance">
+      <form class="insurance">
         <p id="missing">***Missing Field***</p>
         <label for="age">Age</label>
         <input id="age" type="text">
-
         <br>
-        <label for="gender">Gender</label>
+        <p id="missing-gender">***Missing Field***</p>
         <select id="gender">
+          <option value="">Select</option>
           <option value="female">Female</option>
           <option value="male">Male</option>
+        </select>
+        <br>
+        <p id="missing-color">***Missing Field***</p>
+        <select id="haircolor">
+          <option value="">Select</option>
+          <option value="brunette">Brunette</option>
+          <option value="blonde">Blonde</option>
+          <option value="red">Red Hair</option>
+        </select>
+        <br>
+        <p id="missing-genre">***Missing Field***</p>
+        <select id="genre">
+          <option value="">Select</option>
+          <option value="action">Action</option>
+          <option value="romance">Romance</option>
+          <option value="comedy">Comedy</option>
         </select>
         <button type="submit" class="btn">Calculate my quote</button>
       </form>

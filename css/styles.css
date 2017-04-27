@@ -2,6 +2,6 @@
   display: block;
 }
 
-#quote, #missing {
+#quote, #missing, #missing-gender, #missing-color, #missing-genre {
   display: none;
 }
